@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root{
+    --man:#fffdc3af;
+    --butten:#403f2b;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 100px;
+    background-color: #595956;
+    position: fixed;
+}
+nav .mane-banar p{
+ font-size: 25px;
+ font-weight: bold;
+ float: left;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+ color: white;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    font-size: 18px;
+    padding: 0px 30px;
+    cursor: pointer;
+    color: white;
+}
+.man-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imag/c837a6_938269b105e04d2c8a3462e43263ecf4~mv2.jpeg);
+    background-blend-mode:soft-light;
+    background-color: rgba(255, 253, 253, 0.146);
+    background-position: center;
+    background-size: cover;
+
+}
+.man-title p{
+    text-align: center;
+    font-size: 250px;
+    padding-top: 90px;
+    color: #fffdc3af;
+}
+.man-title h3{ 
+    text-align: center;
+    padding-top: 10px;
+    font-size: 27px;
+    color: white;
+}
+.man-title h4{
+text-align: center;
+padding-top: 20px;
+}
+.man-title h4 button{
+    width: 130px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+}
+.man-title h4 button:hover{
+    background-color: #403f2b;
+    color: white;
+    transition: ease 0.6s;
+}
+.second{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffdc3;
+}
+/* slaider js */
+.second{
+    display: flex;
+    justify-content:space-evenly ;
+    padding-top: 10%;
+    
+}
+.sub-banar p{
+   font-size: 50px;
+   padding-top: 20%;
+   color:var(--butten);
+   line-height: 55px;
+}
+.sub-banar h4 button{
+    width: 130px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #403f2b;
+    color: white;
+}
+.sub-banar h4 button:hover{
+    background-color: transparent;
+    color: rgb(6, 6, 6);
+    border: 1px solid black;
+    transition: ease 0.6s;
+}
+.sub-img img{
+    border-radius: 25px;
+}
+.therd{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--man);
+    display: flex;
+    justify-content:space-evenly;
+}
+.containar img{
+    margin-top: 30px;
+    border-radius: 15%;
+}
+.caption p,h4{
+text-align: center;
+padding-top: 10px;
+}
+.containar img.none{
+    width: 350px;
+    height: 480px;
+}
+.counter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.projectFactsWrap{
+    display: flex;    
+}
+
+
+#projectFacts .fullWidth{
+  padding: 97px 150px 97px 150px;
+  box-sizing: border-box;
+}
+
+.projectFactsWrap .item{
+  width: 25%;
+  height: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.projectFactsWrap .item:nth-child(1){
+  background: rgb(251, 252, 252);
+  padding: 25px;
+
+}
+
+.projectFactsWrap .item:nth-child(2){
+  background: rgb(251, 252, 252);
+  padding: 25px;
+}
+
+.projectFactsWrap .item:nth-child(3){
+  background: rgb(253, 255, 255);
+  padding: 25px;  
+}
+
+.projectFactsWrap .item:nth-child(4){
+  padding: 25px;
+  background: rgb(253, 255, 255);
+}
+
+.projectFactsWrap .item p.number{
+  font-size: 30px;
+  color: #bb9772;
+  font-family: mihir;
+}
+
+.projectFactsWrap .item p{
+  color: rgba(7, 7, 7, 0.8);
+  font-size: 12px;
+  margin: 0;
+  padding: 1px;
+  color: #694e32;
+  font-family: 'Open Sans';
+}
+.projectFactsWrap .item h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-size: 20px;
+}
+@media (max-width: 786px){
+  .projectFactsWrap .item {
+     flex: 0 0 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+    .authorWindow{
+         width: 210px;
+    }
+
+    .authorWindowWrapper{
+             bottom: -170px;
+  margin-bottom: 20px;
+    }
+
+    footer p{
+          font-size: 14px;
+    }
+}
+.five{
+  width: 50%;
+  margin: auto;
+  height: 100vh;
+}
+.five-title h1{
+  font-size: 50px;
+  color: var(--butten);
+  line-height: 50px;
+}
+.five .five-title{
+  text-align: center;
+}
+.four{
+  width: 100%;
+  height: 120vh;
+  background-color: var(--man);
+}
+.five-title h4 button{
+  width: 130px;
+  height: 50px;
+  font-weight: 100;
+  font-size: 15px;
+  border-radius: 50px;
+  border: none;
+  background-color: #403f2b;
+  color: white;
+}
+.five-title h4 button:hover{
+  background-color: transparent;
+  color: rgb(6, 6, 6);
+  border: 1px solid black;
+  transition: ease 0.6s;
+}
+/* potiner */
+  
+.foter{
+  width: 100%;
+  height: 60vh;
+  background-color: #bb9772;
+}
+.foter-left{
+  width: 40%;
+}
+.foter-left h1{
+  line-height: 45px;
+}
+.foter-left input{
+  width: 35%;
+  height: 35px;
+  border-radius: 30px;
+  padding: 20px;
+}
+.foter-left .fa-solid{
+  padding: 10px;
+  font-size: 25px;
+}
+.foter-sub{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  align-items: center;
+}
+.foter-right{
+  display: flex;
+  /* margin: auto; */
+}
+.right-sub li{
+  list-style: none;
+  padding: 20px;
+  word-spacing: 5px;
+}
+.right-midel li{
+  list-style: none;
+  padding-left: 40px;
+  padding: 20px;
+  word-spacing: 5px;
+}
+.right-last li{
+  list-style: none;
+  padding-left: 20px;
+  padding: 20px;
+  word-spacing: 5px;
+}

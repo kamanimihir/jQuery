@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chart.css">
+    <link rel="stylesheet" href="./css/calender.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./img/IMG_20240202_183528.jpg">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="head">
+
+        <div class="bar"><i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="search" class="sbar">
+            <i class="fa-solid fa-magnifying-glass sicon "></i>
+        </div>
+
+        <div class="profile">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </header>
+
+    <!-- sidebar -->
+    <aside class="slidebar">
+        <div class="logo">
+            <img src="./img/IMG_20240202_183528.jpg" alt="">
+            <h2 class="name-tile">Mihir Kamani</h2>
+        </div>
+
+        <div class="genral">
+            <h4 class="all">General</h4> <br>
+        </div>
+
+        <!-- sidebar manu -->
+        <div class="sub-cantent">
+            <div class="sub-manu-dashboard">
+                <i class="fa-solid fa-gauge" class="one-icons"></i>
+                <a href="#" class="togl">Dashboard</a>
+                <i class="fa-solid fa-caret-down" style="color: white; font-size: 11px;"></i>
+            </div>
+            <div class="sub-dashboard">
+                <ul class="default">
+                    <li> <a href="#"> &nbsp;&nbsp;> Default Dashboard</a></li>
+                    <li> <a href="#"> > Dashboard Style2</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sub-manu">
+            <i class="fa-solid fa-clock" class="two-icons"></i>
+            <a href="#">Widgets</a>
+        </div>
+        <div class="sub-manu">
+            <i class="fa-solid fa-gem" class="three-icons"></i>
+            <a href="#">Elements</a>
+        </div>
+        <div class="sub-manu">
+            <i class="fa-solid fa-table-cells" class="four-icons"></i>
+            <a href="#">Tables</a>
+        </div>
+        <div class="sub-manu">
+            <i class="fa-solid fa-briefcase" class="five-icons"></i>
+            <a href="#">Pricing Table</a>
+        </div>
+        <div class="sub-manu">
+            <i class="fa-solid fa-map" class="sex-icons"></i>
+            <a href="#">Map</a>
+        </div>
+        <div class="sub-manu">
+            <i class="fa-solid fa-chart-line" class="seven-icons"></i>
+            <a href="#">Charts</a>
+        </div>
+
+        </div>
+    </aside>
+
+
+    <!-- contenet -->
+    <section class="content">
+
+
+        <!-- counter start -->
+        <div id="projectFacts" class="sectionClass">
+            <div class="fullWidth eight columns">
+                <div class="projectFactsWrap ">
+
+                    <div class="item wow fadeInUpBig animated animated" data-number="54" style="visibility: visible;">
+                        <i class="fa-solid fa-user Welcome" ></i>
+                        <p id="number1" class="number">1805</p>
+                        <h2>Welcome</h2><br>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="123" style="visibility: visible;">
+                        <i class="fa-regular fa-clock  WelcomeTime"></i> 
+                        <p id="number2" class="number">1230.5</p> 
+                        <h2>Average Time</h2><br>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="320" style="visibility: visible;">
+                        <i class="fa-solid fa-cloud-arrow-down  cloudDown"></i>
+                        <p id="number3" class="number">2500</p>
+                        <h2>Collections</h2> <br>
+                    </div>
+                    <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+                        <i class="fa-regular fa-comments chat"></i>
+                        <p id="number4" class="number">246</p>
+                        <h2>Comments</h2> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- counter end-->
+        <div class="container">
+            <!-- first div -->
+            <div class="box-4">
+                <div id="bar-chart">
+                </div>
+            </div>
+            <!-- sec div -->
+            <div class="box-4">
+                <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+                <div class="man">
+                    <div id="line-chart"></div>
+                </div>
+            </div>
+
+            <!-- therd div -->
+            <div class="box-4">
+                <div id="calendar"></div>
+                <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+            </div>
+
+            <!-- forth div -->
+            <div class="box-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14766.88958343418!2d70.77631679999999!3d22.288503249999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shi!2sin!4v1707198154341!5m2!1shi!2sin"
+                    width="800" height="300" style="border: none;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </section>
+
+
+    <!-- js -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/togal.js"></script>
+    <script src="./js/chart.js"></script>
+    <script src="./js/calender.js"></script>
+    <script src="./js/map.js"></script>
+
+
+</body>
+
+</html>
